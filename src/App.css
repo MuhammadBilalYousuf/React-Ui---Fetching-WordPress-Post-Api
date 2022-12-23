@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+
+.posts-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.post-container {
+  background: #e2e8d5;
+  flex: 1 0 21%;
+  padding: 3%;
+  margin: 0 2%;
+}
+.heading {
+  height: 126px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+.image {
+  width: 100%;
+  height: 210px;
+}
